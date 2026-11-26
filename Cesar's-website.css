@@ -23,8 +23,8 @@ body {
 
   h1 {
   font-style: oblique;
-  font-family: "Courier New", Courier, monospace
-  font-size 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
   color: greenyellow;
 }
 
@@ -51,7 +51,11 @@ h2, h3 {
 button {
   background-color: rgb(59, 118, 0);
   transition: background-color 0.3s ease;
-  /*Smoothfadeeffect*/margin: 10px 30px   padding 12px 35px;
+  /* Smooth fade effect */
+  margin: 10px 30px;
+  padding: 12px 35px;
+  border: none;
+  cursor: pointer;
   border-radius: 50px;
   color: greenyellow;
   font-style: oblique;
@@ -93,6 +97,9 @@ a:hover {
 }
 
 img {
-margin-top: 30px;
-padding-top: 30px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding-top: 30px;
 }
